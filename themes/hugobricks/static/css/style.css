@@ -49,3 +49,5 @@ img {filter: grayscale(0);}
 
 
 /*------------------------ CSS overrides below ------------------------*/
+
+h1, h2, h3, h4 {font-weight: normal;}

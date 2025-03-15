@@ -1,4 +1,6 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Gafata&family=Gugi&display=swap');
+
+/* @font-face {
     font-display: swap;
     font-family: 'Signika';
     font-style: normal;
@@ -18,9 +20,10 @@
     font-style: normal;
     font-weight: 600;
     src: url('/fonts/heebo-v21-latin-600.woff2') format('woff2');
-}
+} */
+
 
 :root {
-    --fontTitles: 'Signika', sans-serif;
-    --fontBody: 'Heebo', sans-serif;
+    --fontTitles: 'Gugi', sans-serif;
+    --fontBody: 'Gafata', sans-serif;
 }

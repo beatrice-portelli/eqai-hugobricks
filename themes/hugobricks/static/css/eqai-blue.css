@@ -8,13 +8,13 @@
 /*------------------------*/
 
 :root {
-    --textDarker: #1e282d;
-    --textDark: rgba(38, 50, 56, 1);
-    --textMedium: rgba(38, 50, 56, 0.7);
-    --borderMedium: rgba(38, 50, 56, 0.2); 
-    --borderLight: rgba(38, 50, 56, 0.075);
-    --accent: #00adef;
-    --accentDarker: #009ad5;
+    --textDarker: #000341;
+    --textDark: rgba(0, 3, 65, 1);
+    --textMedium: rgba(0, 3, 65, 1);
+    --borderMedium: rgba(0, 3, 65, 0.2); 
+    --borderLight: rgba(0, 3, 65, 0.075);
+    --accent: #cd5c5c;
+    --accentDarker: #000341;
     --light: rgba(38, 50, 56, 0.035);
 }
 /*------------------------*/
@@ -33,16 +33,16 @@ img {filter: grayscale(0);}
 /* black_2_textDark
 /*------------------------*/
 
-.map::after, .black_2_textDark {filter: contrast(0.7) sepia(1) hue-rotate(160deg)!important;}
+.map::after, .black_2_textDark {filter: contrast(0.24) sepia(1) hue-rotate(207deg) contrast(3) brightness(.9) !important;}
 
 /*------------------------*/
 /* black_2_textMedium
 /*------------------------*/
 
-.black_2_textMedium {filter: contrast(0.3) sepia(0.3) hue-rotate(160deg) brightness(1.4)!important;}
+.black_2_textMedium {filter: contrast(0.24) sepia(1) hue-rotate(207deg) contrast(6) brightness(2) !important;}
 
 /*------------------------*/
 /* black_2_accent
 /*------------------------*/
 
-.black_2_accent {filter: contrast(0.24) sepia(1) hue-rotate(138deg) contrast(6) brightness(1.6) !important;}
+.black_2_accent {filter: contrast(0.24) sepia(1) hue-rotate(306deg) contrast(3) brightness(1.2) !important;}

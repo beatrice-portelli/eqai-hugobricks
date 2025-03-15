@@ -3,3 +3,5 @@ resources
 public/
 
 sandbox/
+
+.ipynb_checkpoints/

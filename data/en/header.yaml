@@ -1,6 +1,6 @@
-logo_image:
-logo_subtitle: The Ultimate Hugo Theme
-dark_header: false
+logo_image: /uploads/branding/EQAI-2025-logo.png
+logo_subtitle: The European Summer School on Quantum AI
+dark_header: true
 mobile_view_width: 1100
 menuitems:
   - title: Headers
@@ -60,4 +60,4 @@ cta:
   active: true
   title: Get started
   link: /get-started/
-preheader: open Mon-Fri from 9-5
+preheader: ""
