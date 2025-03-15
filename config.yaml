@@ -1,4 +1,5 @@
 baseURL: https://beatrice-portelli.github.io/eqai-hugobricks
+relativeURLs: true 
 theme: hugobricks
 defaultContentLanguage: en
 assetDir: static
