@@ -15,4 +15,6 @@ Lorem dolor sit amet, consectetur adipiscing elit. Nam non laoreet nisi, ac hend
     
 */}}
 -->
-{{- partial "brick_team.html" .Inner -}}
+{{- $kind := .Get "kind" -}}
+{{- $context := .Inner -}}
+{{- partial "brick_team.html" (dict "kind" $kind "context" $context) -}}

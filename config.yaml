@@ -1,8 +1,9 @@
-# baseURL: "https://beatrice-portelli.github.io/eqai-hugobricks"
-baseURL: "/"
+baseURL: "https://beatrice-portelli.github.io/eqai-hugobricks"
+# baseURL: "/"
 relativeURLs: true 
 theme: hugobricks
-defaultContentLanguage: en
+defaultContentLanguage: eqai-2025
+defaultContentLanguageInSubdir: true
 assetDir: static
 
 markup:
@@ -21,17 +22,23 @@ markup:
           enable: true
 
 languages:
-  en:
-    languageName: English
-    contentDir: content/en
-    weight: 1
+  eqai-2025:
+    languageName: EQAI 2025
+    contentDir: content/main
+    weight: 2
     disabled: false
-    permalinks:
-      page:
-        posts: /blog/:slug
-        services: /services/:slug
-        products: /webshop/:slug
-      section:
-        posts: /blog/
-        services: /services/
-        products: /webshop/
+  eqai-2024:
+    languageName: EQAI 2024
+    contentDir: content/main
+    weight: 3
+    disabled: false
+  eqai-2023:
+    languageName: EQAI 2023
+    contentDir: content/main
+    weight: 4
+    disabled: false
+  eqai-2022:
+    languageName: EQAI 2022
+    contentDir: content/main
+    weight: 5
+    disabled: false
