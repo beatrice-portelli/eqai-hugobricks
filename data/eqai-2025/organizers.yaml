@@ -1,8 +1,17 @@
-- name: Gitio Hamano
-  function: Source Code version controller
-  image: /uploads/photos/avatars/2.jpeg
-  description: Rings of Uranus hearts of the stars corpus callosum invent the universe take root and flourish concept of the number one.
-  email: joost@vdschee.nl
-  phone:
-  linkedin: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
-  website:
+- name: Giuseppe
+  surname: Serra
+  function: Associate Professor of Computer Science, University of Udine
+  image: /uploads/photos/avatars/pfp_giuseppe_serra.jpg
+  website: https://people.uniud.it/page/giuseppe.serra
+  
+- name: Alessandra
+  surname: di Pierro
+  function: Associate Professor of Computer Science, University of Verona
+  image: /uploads/photos/avatars/pfp_alessandra_di_pierro.jpg
+  website: http://profs.sci.univr.it/~dipierro/
+  
+- name: Carla
+  surname: Piazza
+  function: Full Professor of Computer Science, University of Udine
+  image: /uploads/photos/avatars/pfp_carla_piazza.jpg
+  website: https://users.dimi.uniud.it/~carla.piazza/

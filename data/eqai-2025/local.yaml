@@ -1,8 +1,23 @@
-- name: Ada Lovelace
-  function: Alma (cyber)Mater
-  image: /uploads/photos/avatars/6.jpeg
-  description: The carbon in our apple pies Drake Equation the only home we've ever known the ash of stellar alchemy Drake Equation star stuff extremely harvesting star light?
-  email: joost@vdschee.nl
-  phone:
-  linkedin:
-  website: https://www.linkedin.com/in/joost-van-der-schee-4b26682/
+- name: Beatrice
+  surname: Portelli
+  function: Post-doc Researcher, University of Udine
+  image: /uploads/photos/avatars/pfp_beatrice_portelli.jpg
+  website: https://beatrice-portelli.github.io/
+  
+- name: Daniele
+  surname: Lizzio Bosco
+  function: PhD Student, University of Udine and University of Naples “Federico II”
+  image: /uploads/photos/avatars/pfp_daniele_lizzio_bosco.jpg
+  website: https://sites.google.com/view/dan-lb/
+  
+- name: Alex
+  surname: Falcon
+  function: Post-doc Researcher, University of Udine
+  image: /uploads/photos/avatars/pfp_alex_falcon.jpg
+  website: https://aranciokov.github.io/
+
+- name: Riccardo
+  surname: Romanello
+  function: PhD Student, University of Udine
+  image: /uploads/photos/avatars/pfp_riccardo_romanello.jpg
+  website: https://riccardoromanello.github.io/
