@@ -1,0 +1,114 @@
+- name: Davide
+  surname: Pastorello
+  function: University of Bologna – Bologna, Italy
+  image: /uploads/photos/avatars/pfp_davide_pastorello.jpg
+  website: 
+  info: "davide-pastorello"
+  talktitle: An introduction to Quantum Computing
+  talkabstract: |-
+    In this lecture we provide a comprehensive overview of quantum computing. Starting from some foundational aspects of (finite-dimensional) quantum mechanics we introduce the standard formalism and the basic notions of qubits, quantum gates and circuits. In particular, we discuss how quantum properties, such as state superposition and entanglement, enable a new paradigm of information encoding and processing w.r.t. that of classical computing. Then, we describe some quantum algorithms which are relevant in quantum machine learning.
+  
+- name: Cristina
+  surname: Cirstoiu
+  function: Quantinuum – Cambridge, United Kingdom
+  image: /uploads/photos/avatars/pfp_cristina_cirstoiu.jpg
+  website: 
+  info: "cristina-cirstoiu"
+  talktitle: How does noise affect the performance of quantum machine learning?
+  talkabstract: |-
+    Physical noise in quantum devices is one of the biggest challenges to overcome for scaling quantum computing applications. In this lecture, we explore the impact of errors on the performance of quantum neural networks by delving into how noise can limit training and can lead to quantum computations that are easier to simulate classically. Error mitigation methods have been introduced as a way to alleviate some of these limitations for near-term quantum devices, that do not support the very large overhead and low error rates required by quantum error correction. We will further discuss the prospects for different error mitigation techniques and open problems related to their application for quantum machine learning.
+
+- name: Marco
+  surname: Cerezo
+  function: Los Alamos National Laboratory – Los Alamos, NM, USA
+  image: /uploads/photos/avatars/pfp_marco_cerezo.jpg
+  website: 
+  info: "marco-cerezo"
+  talktitle: A primer on the theoretical aspects of quantum neural networks
+  talkabstract: |-
+    In this lecture we will review the latest developments in variational quantum computing, with a specific focus on quantum neural networks (a.k.a., parametrized quantum circuits). Despite their initial hype, it has been shown that these models can exhibit critical issues such as barren plateaus, and exceeding local minima in their training landscapes. More importantly, it has been recently pointed out that models which are barren plateau-free, could also be potentially simulated. Given that we still do not fully understand the powers and limitations of quantum neural networks, this talk aims to provide foundational tools and inspire students to address the many unresolved questions in the quest for practical quantum machine learning.
+
+- name: Matthias C.
+  surname: Caro
+  function: Freie Universität Berlin – Berlin, Germany
+  image: /uploads/photos/avatars/pfp_matthias_c_caro.jpg
+  website: 
+  info: "matthias-caro"
+  talktitle: Hamiltonian Learning and Testing
+  talkabstract: |-
+    Hamiltonians play a central role in quantum physics because they describe how closed quantum systems evolve over time. Therefore, characterizing an unknown Hamiltonian – or at least determining some of its properties – when given access to the corresponding time evolution, or to copies of the Gibbs state describing a thermalized system, is a task of fundamental interest. Additionally, with early quantum devices emerging, it becomes a technologically relevant task, with implications for benchmarking in quantum simulation and quantum computing. In this quantum learning theory lecture, I will provide an introduction to the vibrant research area of Hamiltonian learning and testing, with a focus on recent work proving rigorous learning and testing guarantees.
+
+- name: Vladislav
+  surname: Golyanik
+  function: Max-Planck-Institut für Informatik – Saarbrücken, Germany
+  image: /uploads/photos/avatars/pfp_vladislav_golyanik.jpg
+  website: 
+  info: "vladislav-golyanik"
+  talktitle: Advances in Quantum-enhanced Computer Vision
+  talkabstract: |-
+    As Quantum-enhanced Computer Vision (CV) is gaining momentum, one of the current goals in the field is to understand how challenging CV and machine learning problems could benefit from quantum computational paradigms. This talk will focus on the general framework for mapping CV problems into quantum-hardware-admissible (often quadratic unconstrained binary optimisation) forms, focusing on data matching and model fitting problems. It will then discuss recent techniques for representation learning relying on quantum machine learning. Since experimental results obtained on real quantum hardware or simulators are of the utmost importance to the community, the emphasis will be placed on approaches demonstrating practical advantages w.r.t. their classical counterparts.
+
+- name: Daniel K.
+  surname: Park
+  function: Yonsei University – Seoul, South Korea
+  image: /uploads/photos/avatars/pfp_daniel_k_park.jpg
+  website:  
+  info: "daniel-park"
+  talktitle: Classical-quantum hybrid machine learning
+  talkabstract: |-
+    Quantum Machine Learning (QML) is at the forefront of data science, pushing the boundaries of how machines learn from data. While QML holds the potential to surpass conventional methods by operating on fundamentally different principles, it also encounters critical challenges absent in its classical counterparts. Therefore, a promising strategy is to combine classical and quantum approaches to leverage their unique strengths and complement their weaknesses. This lecture will explore classical-quantum hybrid machine learning, focusing on the integration of state-of-the-art classical and quantum ML techniques. We will delve into the synergistic combination of these methods, particularly highlighting the role of classical machine learning in the quantum kernel method and variational quantum algorithms.
+
+- name: Christa
+  surname: Zoufal
+  function: IBM Quantum – Switzerland
+  image: /uploads/photos/avatars/pfp_christa_zoufal.jpg
+  website: 
+  info: "christa-zoufal"
+  talktitle: Benchmarking quantum machine learning and optimization algorithms
+  talkabstract: |-
+    Benchmarking can provide insights into realistic algorithmic performance when purely analytical methods fail. In particular, theoretical complexity analysis typically pertains to general problem classes and considers mostly asymptotic scaling behavior or worst case scenarios. In fact, theoretical worst case bounds often fail to describe the difficulties of solving real-world applications that focus on a specific problem instance. In this case, we need to rely on meaningful and systematic benchmarking of quantum algorithms with well-defined assumptions considering implementation, data, and metrics.
+    When establishing best practices for benchmarking quantum machine learning and optimization algorithms, one has to select reasonable benchmarking problems, wisely choose algorithms, hyperparameters, and evaluation metrics, and ensure the best possible implementation on quantum hardware. In this talk, the respective discussion will be supported by examples of quantum machine learning and optimization benchmarking experiments.
+
+- name: Simone
+  surname: Montangero
+  function: University of Padua – Padua, Italy
+  image: /uploads/photos/avatars/pfp_simone_montangero.jpg
+  website: 
+  info: "simone-montangero"
+  talktitle: Introduction to Tensor Network Methods
+  talkabstract: |-
+    We introduce tensor network methods, a powerful class of classical numerical algorithms to support future quantum simulations and computations, providing guidance, benchmarking and verification of the quantum computation and simulation results. Starting from the basics concepts and algorithms, we conclude the lesson with an overview of some of the latest developments: their application to complex hard combinatorial problems and to perform machine learning tasks.
+
+- name: Michele
+  surname: Grossi
+  function: CERN – Geneva, Switzerland
+  image: /uploads/photos/avatars/pfp_michele_grossi.jpg
+  website: 
+  info: "michele-grossi"
+  talktitle: Quantum Technique for high energy physics
+  talkabstract: |-
+    In this lecture we will describe what are the main building blocks contributing to the success of complex high energy physics experiments. We will show where the adoption of quantum techniques has been tested and how typical particle decay processes are described under the formalism of quantum information. Recent experimental evidences about quantum information properties of decay particles provide a new and interesting avenue of research.
+
+- name: Antonio Andrea
+  surname: Gentile
+  function: Pasqal – Amsterdam, The Netherlands
+  image: /uploads/photos/avatars/pfp_antonio_andrea_gentile.jpg
+  website: 
+  info: "antonio-andrea-gentile"
+  talktitle: Scientific Machine Learning with (neutral atom) quantum circuits
+  talkabstract: |-
+    Physical and socio-economical systems are modeled by various paradigms.
+    (Stochastic) Differential equations (DEs) and graph-theoretic problems are ubiquitous, but solving intricate them can be computationally challenging due to their scale and complexity. As such, recently Scientific Machine Learning (SciML) approaches were explored to target them efficiently, seamlessly embed actual data where available, and exploit generalization properties typical of ML models.
+    We will build on those, to introduce recent developments in the field of (graph) Quantum Machine Learning, covering both variational and iterative quantum algorithms, focusing in particular Differentiable Quantum Circuits (DQC) and graph-based approaches (e.g. Quantum Evolution Kernels) native to neutral atom architectures. An emphasis will be on showcasing results of their application in various types of physics and engineering problems, towards industrial-scale relevant applications.
+
+- name: David
+  surname: Wierichs
+  function: Xanadu Quantum Technologies – Toronto, Canada
+  image: /uploads/photos/avatars/pfp_david_wierichs.jpg
+  website: 
+  info: "david-wierichs"
+  talktitle: Scientific Machine Learning with (neutral atom) quantum circuits
+  talkabstract: |-
+    Quantum machine learning (QML) is an exciting field in modern research. Parameterized quantum circuits are frequently used to construct QML models, which then are trained, predominantly using gradient-based optimization techniques.
+    In the hands-on part of the session we will explore PennyLane, a versatile cross-platform Python library for differentiable quantum programming, for constructing and training QML models. We will discuss architectures tailored to specific applications, harvesting most recent research on QML.
+    In a more theoretical part of the session, we will learn about differentiation of parameterized quantum circuits, which is a quintessential subroutine of established QML workflows, both on simulators and quantum hardware.

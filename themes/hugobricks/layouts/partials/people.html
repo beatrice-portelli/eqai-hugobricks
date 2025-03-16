@@ -1,4 +1,4 @@
-<ul class="grid people">
+<ul class="grid people box">
 
     {{- range (index (index page.Site.Data page.Site.Language.Lang) .kind) -}}
         <li>
@@ -25,8 +25,12 @@
                 {{- if .website -}}
                     <li><a href="{{ .website }}" class="button icon" target="_blank"><img src="/img/world.svg" alt="{{ .website }}" /></a></li>
                 {{- end -}}
+                {{- if .info -}}
+                    <li><a href="#{{ .info }}" class="button icon"><img src="/img/info_i.svg" alt="{{ .info }}" /></a></li>
+                {{- end -}}
             </ul>
             </div>
         </li>
     {{- end -}}
+  
 </ul>

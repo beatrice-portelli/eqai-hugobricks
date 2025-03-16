@@ -1,0 +1,28 @@
+<!-- load reviews from data folder and display them ein a ul -->
+<ul class="grid reviews talks">
+{{- range (index page.Site.Data page.Site.Language.Lang).speakers -}}
+    <li>
+        <div class="box" id="{{ .info }}">
+
+            <div>
+                <img src="{{ .image }}" alt="{{ .name }} {{.surname }}" class="avatar" />
+                <div>
+                    <h3><span class="highlight">{{ .name }} {{ .surname }}</span></h3>
+                    {{- if .function -}}
+                    <div class="function">{{- .function | safeHTML -}}</div>
+                    {{- end -}}
+                </div>
+            </div>
+          
+            <div style="text-align: left;">
+                <p style="font-weight: bold;">{{ .talktitle }}</p>
+                <p>{{ .talkabstract }}</p>
+            </div>
+
+        <a href="#top" class="highlight" title="Back to top" style="width: fit-content; align-self: center;"> Back to top </a>
+
+        </div>
+    </li>
+{{- end -}}
+</ul>	
+

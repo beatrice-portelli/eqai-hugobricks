@@ -1,0 +1,23 @@
+- name: Giuseppe
+  surname: Serra
+  function: Associate Professor of Computer Science, University of Udine
+  image: /uploads/photos/avatars/pfp_giuseppe_serra.jpg
+  website: https://people.uniud.it/page/giuseppe.serra
+  
+- name: Alessandra
+  surname: di Pierro
+  function: Associate Professor of Computer Science, University of Verona
+  image: /uploads/photos/avatars/pfp_alessandra_di_pierro.jpg
+  website: http://profs.sci.univr.it/~dipierro/
+  
+- name: Carla
+  surname: Piazza
+  function: Full Professor of Computer Science, University of Udine
+  image: /uploads/photos/avatars/pfp_carla_piazza.jpg
+  website: https://users.dimi.uniud.it/~carla.piazza/
+
+- name: Francesco
+  surname: Petruccione
+  function: Professor of Quantum Computing, Stellenbosch University
+  image: /uploads/photos/avatars/pfp_francesco_petruccione.jpg
+  website: https://scholar.google.com/citations?user=chM4fT4AAAAJ

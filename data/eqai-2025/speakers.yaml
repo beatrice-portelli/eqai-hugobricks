@@ -1,0 +1,70 @@
+- name: Amira
+  surname: Abbas
+  function: Google Quantum AI, California, USA
+  image: /uploads/photos/avatars/pfp_amira_abbas.jpg
+  website: https://www.linkedin.com/in/amira-abbas-4a59aa9b/
+  info: "amira-abbas"
+  talktitle:
+  talkabstract:
+  
+- name: Barry
+  surname: Sanders
+  function: University of Calgary, Canada
+  image: /uploads/photos/avatars/pfp_barry_sanders.jpg
+  website: https://scholar.google.com/citations?user=s75l9WwAAAAJ
+  info: "barry-sanders"
+  talktitle: History, status and future of quantum algorithms and heuristics
+  talkabstract: |-
+    I provide a history, current status and expected future for quantum algorithms and quantum heuristics (such as quantum annealing and variational quantum algorithms) including potential quantum advantage and requirements for quantum-computer hardware to achieve such an advantage.
+
+- name: Nana
+  surname: Liu
+  function: Shanghai Jiao Tong University, China
+  image: /uploads/photos/avatars/pfp_nana_liu.jpg
+  website: https://nanaliu.weebly.com/
+  info: "nana-liu"
+  talktitle: Interplay between differential equations and quantum machine learning
+  talkabstract: 
+
+- name: Sergii
+  surname: Strelchuk
+  function: University of Oxford, England
+  image: /uploads/photos/avatars/pfp_sergii_strelchuk.jpg
+  website: https://scholar.google.com/citations?user=qE5BWYIAAAAJ
+  info: "sergii-strelchuk"
+  talktitle: Surviving as a Classical learner in a Quantum World
+  talkabstract: 
+
+- name: Lirandë
+  surname: Pira
+  function: Centre for Quantum Technologies, Singapore
+  image: /uploads/photos/avatars/pfp_lirande_pira.jpg
+  website: https://scholar.google.com/citations?user=ZrTLNcUAAAAJ
+  info: "lirande-pira"
+  talktitle: In Search of Quantum Neural Networks
+  talkabstract: |-
+    Biological neural networks underpin our cognition, creativity, and ability to find meaning. Artificial neural networks, inspired by their biological counterparts, have transformed computing, extending human capabilities in ways we are only beginning to understand. Quantum neural networks (QNNs) emerge at the intersection of quantum mechanics and machine learning, prompting us to think whether they can push these boundaries every further.
+    While classical neural networks dominate machine learning, their foundations are not without limitations. As quantum computing advances, the search for quantum neural networks has sparked theoretical and experimental efforts. Can QNNs offer a fundamental advantage over classical models, or are they merely a reformulation in disguise? What principles should govern their design? And most crucially—what problems could they solve that classical AI cannot?
+    This lecture will explore the motivations behind QNNs, examine current proposals, and discuss the challenges of constructing meaningful quantum learning architectures. Along the way, we will revisit the original inspiration behind neural networks and question whether quantum mechanics offers a fundamentally new paradigm for intelligence.
+
+- name: Alessandro
+  surname: Luongo
+  function: Centre for Quantum Technologies, Singapore
+  image: /uploads/photos/avatars/pfp_alessandro_luongo.jpg
+  website: https://luongo.pro/
+  info: "alessandro-luongo"
+  talktitle: "Classical data in quantum computers: methods and applications"
+  talkabstract: |-
+    Loading and representing classical data on a quantum computer is a critical subroutine in writing quantum algorithms with provable speedups over classical ones.
+    We begin by examining key methods for encoding classical data into quantum form, including binary, amplitude, block, angle, and graph encodings. Next, we introduce a formal model of quantum computation that incorporates a quantum memory device—capable of querying classical data in superposition—allowing a precise definition of quantum runtime.
+    We then delve into circuit implementations of quantum memory devices, such as bucket-brigade QRAM, state preparation circuits, and others, discussing their properties and trade-offs.
+    Finally, we conclude with an overview of quantum machine learning algorithms that leverage this computational model and highlight open research challenges.
+
+- name: Anil
+  surname: Ananthaswamy
+  function: Independent science journalist and writer
+  image: /uploads/photos/avatars/pfp_anil_ananthaswamy.jpg
+  website: https://anilananthaswamy.com/
+  info: "anil-ananthaswamy"
+  talktitle: "Why Machines Learn: The Elegant Math Behind Modern AI"
+  talkabstract: 

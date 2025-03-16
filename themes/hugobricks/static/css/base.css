@@ -264,7 +264,7 @@ a[href]:hover .img img {transform: scale(1.075);}
 /*------------------------*/
 
 ul.people li {text-align: center;}
-ul.people li .box {height: 100%; padding: 2.25rem clamp(2rem, 4vw, 3.5rem); max-width: 20rem;}
+ul.people li .box {height: 100%; padding: 1rem; max-width: 20rem; border: none; background: none;}
 ul.people li .avatar {height: 11rem; width: 11rem; margin: 0.5rem auto 0.15rem;}
 ul.people li .function {color: var(--textDark); font-size: smaller;}
 ul.people ul.buttons {justify-content: center;}
@@ -279,6 +279,13 @@ ul.people {
   padding-bottom: 1rem;
 }
 
+/*------------------------*/
+/* talks
+/*------------------------*/
+ul.talks li .function {color: var(--textDark); font-size: smaller;}
+ul.talks {display: inline;}
+ul.talks li {margin: 2rem;}
+ul.talks li div.box .avatar {height: 6rem !important; width: 6rem !important;}
 
 /*------------------------*/
 /* tabs

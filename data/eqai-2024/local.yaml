@@ -1,0 +1,23 @@
+- name: Beatrice
+  surname: Portelli
+  function: PhD Student, University of Udine and University of Naples “Federico II”
+  image: /uploads/photos/avatars/pfp_beatrice_portelli.jpg
+  website: https://beatrice-portelli.github.io/
+  
+- name: Daniele
+  surname: Lizzio Bosco
+  function: PhD Student, University of Udine and University of Naples “Federico II”
+  image: /uploads/photos/avatars/pfp_daniele_lizzio_bosco.jpg
+  website: https://sites.google.com/view/dan-lb/
+  
+- name: Alex
+  surname: Falcon
+  function: Post-doc Researcher, University of Udine
+  image: /uploads/photos/avatars/pfp_alex_falcon.jpg
+  website: https://aranciokov.github.io/
+
+- name: Riccardo
+  surname: Romanello
+  function: PhD Student, University of Udine
+  image: /uploads/photos/avatars/pfp_riccardo_romanello.jpg
+  website: https://riccardoromanello.github.io/

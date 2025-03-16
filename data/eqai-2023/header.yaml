@@ -5,9 +5,12 @@ mobile_view_width: 1100
 menuitems:
   - title: Committee
     link: /committee/
+  - title: Speakers
+    link: /speakers/
+    
   
 cta:
-  active: true
+  active: false
   title: Get started
   link: /get-started/
 preheader: ""

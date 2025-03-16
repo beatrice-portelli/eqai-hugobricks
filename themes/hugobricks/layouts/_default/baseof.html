@@ -76,15 +76,6 @@
           </nav>
         </div>
         <div>
-		      {{- if (index .Site.Data .Language.Lang).webshop.show_cart_icon -}}
-          <a href="{{ (index .Site.Data .Language.Lang).webshop.cart_link }}">
-            <img src="/img/shopping-cart.svg" alt="Shopping cart icon" class="black_2_textDark" />
-            <span class="itemcount">0</span>
-          </a>
-          {{- end -}}
-          <a href="/search">
-            <img src="/img/search.svg" alt="Search icon" class="black_2_textDark" />
-          </a>
           {{ if (index .Site.Data .Language.Lang).header.cta.active }}
           <a href="{{ (index .Site.Data .Language.Lang).header.cta.link }}" class="button smaller">{{ (index .Site.Data .Language.Lang).header.cta.title }}</a>
 		      {{ end }}
