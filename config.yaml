@@ -1,4 +1,4 @@
-baseURL: "https://beatrice-portelli.github.io/eqai-hugobricks"
+baseURL: "https://beatrice-portelli.github.io/eqai-hugobricks/"
 # baseURL: "/"
 relativeURLs: true 
 theme: hugobricks

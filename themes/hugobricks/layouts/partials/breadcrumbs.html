@@ -3,12 +3,12 @@
 {{- range (index .Site.Data $.Site.Language.Lang).header.menuitems -}}
     {{- $title := .title -}}
     {{- $link := .link -}}
-    {{- if eq .link $.Page.RelPermalink -}}
+    {{- if eq .link $.Page.Permalink -}}
         {{- $parent_title = .title -}}
         {{- $parent_link = $link -}}
     {{- else -}}
         {{- range .items -}}
-            {{- if eq .link $.Page.RelPermalink -}}
+            {{- if eq .link $.Page.Permalink -}}
                 {{- $parent_title = $title -}}
                 {{- $parent_link = $link -}}
             {{- end -}}
@@ -19,18 +19,18 @@
 <ul class="breadcrumbs">
     {{- if and (ne $.Page.Section "services") (ne page.Section "posts") (ne page.Section "products") -}}
         {{- range page.Ancestors.Reverse -}}
-            <li><a href="{{ .RelPermalink }}">{{ .Title | truncate 25 }}</a></li>
+            <li><a href="{{ .Permalink }}">{{ .Title | truncate 25 }}</a></li>
         {{- end -}}
         {{- if $parent_title -}}
             <li><a href="{{ $parent_link }}">{{ $parent_title | truncate 25 }}</a></li>
         {{- else -}}
-            {{- if and (ne $parent_link $.Page.RelPermalink) (ne page.Section "posts") (ne page.Section "products") -}}<li><a href="{{ $.Page.RelPermalink }}">{{ page.Title | truncate 25 }}</a></li>{{- end -}}
+            {{- if and (ne $parent_link $.Page.Permalink) (ne page.Section "posts") (ne page.Section "products") -}}<li><a href="{{ $.Page.Permalink }}">{{ page.Title | truncate 25 }}</a></li>{{- end -}}
         {{- end -}}
     {{- else -}}
         {{- range first 1 page.Ancestors.Reverse -}}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{- end -}}
-        {{- $urlparts := split page.RelPermalink `/` -}}
+        {{- $urlparts := split page.Permalink `/` -}}
         <li><a href="{{ range first 2 $urlparts }}{{ . }}/{{ end }}">{{ i18n page.Section }}</a></li>
     {{- end -}}
 </ul>
